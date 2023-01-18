@@ -2,11 +2,10 @@
 background color: #625d52
 text: #e1e1e1
 */
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic,900,900italic,300italic,300,100italic,100);
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 * {
-    font-family: Roboto;
+    font-family: 'Roboto', monospace;
     margin: 0;
     padding: 0;
     background-color:#202023;

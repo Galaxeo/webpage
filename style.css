@@ -1,14 +1,16 @@
-/* Colors are:
-Blue: #A0C3D2
-Blush Pink: #EAC7C7
-Off-white/cream: #F7F5EB
-Lighter Pink: #EAE0DA
+/*
+try this: #625d52
+text: white
 */
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic,900,900italic,300italic,300,100italic,100);
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
 * {
-    font-family: Roboto, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Roboto;
     margin: 0;
     padding: 0;
-    background-color: #F7F5EB;
+    background-color:#202023;
+    color: #e1e1e1;
 }
 .header {
     display: flex;
@@ -16,15 +18,15 @@ Lighter Pink: #EAE0DA
     padding: 15px;
     justify-content: center;
     gap: 600px;
-    background-color: #A0C3D2;
+    background-color: #202023;
     align-items: center;
 }
 .header .title a{
-    font-weight: bolder;
+    font-weight: bold;
     font-size: 20px;
     text-decoration: none;
-    background-color: #A0C3D2;
-    color: black;
+    background-color: #202023;
+    color: #e1e1e1;
 }
 .headerlist {
     display: flex;
@@ -32,39 +34,53 @@ Lighter Pink: #EAE0DA
     padding: 0;
     list-style-type: none;
     margin: 0;
-    background-color: #A0C3D2;
+    background-color: #202023;
     font-weight: bold;
 }
 .headlink{
-    color: black;
-    background-color: #A0C3D2;
+    background-color: #202023;
     text-decoration: none;
 }
 .first{
     display: flex;
-    margin: 16px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.firstinfo {
+.firstImg {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 50px;
+}
+.image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 650px;
+}
+.image2 {
+    position: absolute;
+    top: 235px;
+    left: 225px;
+    border-radius: 50%; 
+    width: 200px;
+}
+.firstName{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    margin: 15px;
+    margin-top: 25px;
     align-items: center;
+    flex-direction: column;
 }
 .first ul, .second ul {
     list-style-type: none;
-}
-.first img {
-    flex-shrink: 0;
-    width: 750px;
 }
 .second {
     padding: 30px;
     display: flex;
     justify-content: center;
-    background-color: #EAE0DA;
     gap: 40px;
     flex-wrap: wrap;
 }
@@ -81,17 +97,16 @@ Lighter Pink: #EAE0DA
     flex-direction: column;
     align-items: center;
     gap: 5px;
-    background-color: #EAE0DA;
 }
-.keyboardfeature img {
-    width: 200px;
-    height: 200px;
+.keyboardfeature img{
+    border: 2px solid transparent;
+    width: 180px;
+    height: 180px;
     object-fit: cover;
     border-radius: 15px;
 }
-.keyboardfeature div, .keyboardfeature a{
-    font-weight: bold;
-    background-color: #EAE0DA;
+.keyboardfeature img:hover{
+    border: 2px solid #e1e1e1;
 }
 .youtubefeat {
     display: flex;
@@ -99,8 +114,8 @@ Lighter Pink: #EAE0DA
     justify-content: center;
 }
 .footer {
-    background-color: #EAC7C7;
     display: flex;
+    color: darkslategray;
     padding: 5px 0;
     text-align: center;
     justify-content: center;

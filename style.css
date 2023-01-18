@@ -1,6 +1,6 @@
 /*
-try this: #625d52
-text: white
+background color: #625d52
+text: #e1e1e1
 */
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic,900,900italic,300italic,300,100italic,100);
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
@@ -22,7 +22,7 @@ text: white
     align-items: center;
 }
 .header .title a{
-    font-weight: bold;
+    font-family: 'Space Mono';
     font-size: 20px;
     text-decoration: none;
     background-color: #202023;
@@ -35,10 +35,10 @@ text: white
     list-style-type: none;
     margin: 0;
     background-color: #202023;
-    font-weight: bold;
 }
 .headlink{
     background-color: #202023;
+    font-family: 'Space Mono';
     text-decoration: none;
 }
 .first{
@@ -57,6 +57,7 @@ text: white
 .image1 {
     position: relative;
     top: 0;
+    border-radius: 7px;
     left: 0;
     width: 650px;
 }

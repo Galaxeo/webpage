@@ -1,19 +1,30 @@
+/* Colors are:
+Blue: #A0C3D2
+Blush Pink: #EAC7C7
+Off-white/cream: #F7F5EB
+Lighter Pink: #EAE0DA
+*/
 * {
     font-family: Roboto, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #F7F5EB;
 }
 .header {
     display: flex;
-    height: 72px;
-    padding: 16px;
-    justify-content: space-between;
-    background-color: aliceblue;
+    height: 15px;
+    padding: 15px;
+    justify-content: center;
+    gap: 600px;
+    background-color: #A0C3D2;
     align-items: center;
 }
-.header .title{
+.header .title a{
     font-weight: bolder;
-    font-size: 32px;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #A0C3D2;
+    color: black;
 }
 .headerlist {
     display: flex;
@@ -21,7 +32,13 @@
     padding: 0;
     list-style-type: none;
     margin: 0;
+    background-color: #A0C3D2;
     font-weight: bold;
+}
+.headlink{
+    color: black;
+    background-color: #A0C3D2;
+    text-decoration: none;
 }
 .first{
     display: flex;
@@ -47,12 +64,16 @@
     padding: 30px;
     display: flex;
     justify-content: center;
+    background-color: #EAE0DA;
     gap: 40px;
-    background-color: #E5E7EB;
     flex-wrap: wrap;
 }
 .container{
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    width: 750px;
     flex-direction: column;
 }
 .keyboardfeature{
@@ -60,15 +81,17 @@
     flex-direction: column;
     align-items: center;
     gap: 5px;
+    background-color: #EAE0DA;
 }
 .keyboardfeature img {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
     border-radius: 15px;
 }
-.keyboardfeature div{
+.keyboardfeature div, .keyboardfeature a{
     font-weight: bold;
+    background-color: #EAE0DA;
 }
 .youtubefeat {
     display: flex;
@@ -76,9 +99,14 @@
     justify-content: center;
 }
 .footer {
-    background-color: #E5E7EB;
+    background-color: #EAC7C7;
     display: flex;
     padding: 5px 0;
     text-align: center;
     justify-content: center;
+}
+/* About page */
+.aboutFirst{
+    display: flex;
+    padding: 15px;
 }

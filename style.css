@@ -1,9 +1,10 @@
 /*
 background color: #625d52
 text: #e1e1e1
+general width is 650px;
 */
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 * {
     font-family: 'Roboto', monospace;
     margin: 0;
@@ -11,6 +12,20 @@ text: #e1e1e1
     background-color:#202023;
     color: #e1e1e1;
 }
+.horizDivide{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.largeText{
+    font-family: 'Space Mono'; 
+    font-size: 25px;
+}
+
+
+/*Landing page*/
 .header {
     display: flex;
     height: 15px;
@@ -120,8 +135,46 @@ text: #e1e1e1
     text-align: center;
     justify-content: center;
 }
+
+
 /* About page */
+.aboutHeader{
+    display: flex;
+    justify-content: center;
+    font-family: 'Space Mono';
+    font-size: 35px;
+}
 .aboutFirst{
     display: flex;
     padding: 15px;
+    width: 525px;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 15px;
+    align-items: center;
 }
+.aboutFirst img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: 45%;
+    border-radius: 50%;
+    border: 2px solid #e1e1e1;
+}
+.aboutFirstText{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.aboutSecond {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+
+/* Resume page */

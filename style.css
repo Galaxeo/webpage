@@ -115,8 +115,8 @@ general width is 650px;
 }
 .keyboardfeature img{
     border: 2px solid transparent;
-    width: 180px;
-    height: 180px;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
     border-radius: 15px;
 }
@@ -173,8 +173,14 @@ general width is 650px;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
+    gap: 5px;
 }
 
 
-/* Resume page */
+/* Works page */
+.worksFirst{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}

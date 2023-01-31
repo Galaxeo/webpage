@@ -30,8 +30,7 @@ general width is 650px;
     display: flex;
     height: 15px;
     padding: 15px;
-    justify-content: center;
-    gap: 600px;
+    justify-content: space-between;
     background-color: #202023;
     align-items: center;
 }
@@ -41,6 +40,9 @@ general width is 650px;
     text-decoration: none;
     background-color: #202023;
     color: #e1e1e1;
+}
+.title {
+    flex-shrink: 0;
 }
 .headerlist {
     display: flex;

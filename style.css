@@ -218,8 +218,6 @@ general width is 650px;
   display: flex;
   align-items: center;
   justify-content: center;
-
-  /* transition effect. not necessary */
   transition: opacity .2s, visibility .2s;
 }
 .keybFeat:hover .keybDescLayer {

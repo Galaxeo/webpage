@@ -184,3 +184,21 @@ general width is 650px;
     align-items: center;
     gap: 5px;
 }
+
+/* Keyboard page */
+.keyboardFirst{
+    display: flex;
+    width: 750px;
+    align-items: center;
+}
+.keybFeat{
+   display: flex; 
+}
+.keybFeat img{
+    width: 350px;
+    object-fit: cover; 
+    border-radius: 5px;
+}
+.keybFeat img:hover{
+    border: 2px solid aliceblue;
+}

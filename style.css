@@ -139,10 +139,19 @@ general width is 650px;
 }
 .footer {
     display: flex;
+    flex-direction: column;
+    text-decoration: none;
     color: darkslategray;
     padding: 5px 0;
     text-align: center;
     justify-content: center;
+}
+.footer a{
+    text-decoration: underline;
+    color: darkslategray;
+}
+.footer a i{
+    opacity: 50%;
 }
 
 

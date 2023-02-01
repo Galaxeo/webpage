@@ -234,3 +234,18 @@ general width is 650px;
 .keybFeat:hover .keybDesc {
     transform: translateY(0);
 }
+/*Resume page*/
+.resumeFirst {
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 5px;
+}
+.resumeCont{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}

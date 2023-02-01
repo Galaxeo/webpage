@@ -208,19 +208,19 @@ general width is 650px;
     border-radius: 5px;
 }
 .keybDescLayer {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: #202023;
-  color: #e1e1e1;
-  visibility: hidden;
-  opacity: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: opacity .2s, visibility .2s;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #202023;
+    color: #e1e1e1;
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity .2s, visibility .2s;
 }
 .keybFeat:hover .keybDescLayer {
     visibility: visible;
@@ -234,6 +234,7 @@ general width is 650px;
 .keybFeat:hover .keybDesc {
     transform: translateY(0);
 }
+<<<<<<< HEAD
 /*Resume page*/
 .resumeFirst {
     display: flex;
@@ -248,4 +249,35 @@ general width is 650px;
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
+=======
+/* Article Pages*/
+.articleFirst {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.articleCoverImg {
+    width: 650px;
+    object-fit: cover;
+    margin: 15px;
+}
+.articleSecond {
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    margin-top: 15px;
+}
+.articleTOC li{
+    font-size: 20px;
+    margin: 1px;
+}
+.articleContent {
+    width: 650px;
+    margin: 5px;
+>>>>>>> bff6b8c01a8360e431957251eced584891d18d04
 }

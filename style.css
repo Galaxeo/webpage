@@ -285,11 +285,23 @@ general width is 650px;
     margin-right: auto;
     gap: 5px;
 }
+.resumeAbout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
 .resumeCont{
     display: flex;
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
+    margin-bottom: 10px;
+}
+.resumeCont div {
+    min-width: 125px;
+    max-width: 125px;
+    margin-right: 25px;
 }
 /* Article pages*/
 .articleFirst {

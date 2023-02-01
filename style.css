@@ -13,7 +13,7 @@ general width is 650px;
     color: #e1e1e1;
 }
 .horizDivide{
-    width: 600px;
+    max-width: 600px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
@@ -43,6 +43,9 @@ general width is 650px;
 }
 .title {
     flex-shrink: 0;
+}
+.title img{
+    border-radius: 15px;
 }
 .headerlist {
     display: flex;
@@ -87,9 +90,13 @@ general width is 650px;
 .firstName{
     display: flex;
     margin: 15px;
+    flex-wrap: wrap;
     margin-top: 25px;
     align-items: center;
     flex-direction: column;
+}
+.firstName p{
+    max-width: 500px;
 }
 .first ul, .second ul {
     list-style-type: none;
@@ -106,7 +113,7 @@ general width is 650px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 25px;
-    width: 750px;
+    max-width: 750px;
     flex-direction: column;
 }
 .indexFeat{
@@ -149,7 +156,7 @@ general width is 650px;
 .aboutFirst{
     display: flex;
     padding: 15px;
-    width: 525px;
+    max-width: 525px;
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
@@ -231,7 +238,7 @@ general width is 650px;
 /* Keyboard page */
 .keyboardFirst{
     display: flex;
-    width: 750px;
+    max-width: 750px;
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
@@ -280,7 +287,7 @@ general width is 650px;
 .resumeFirst {
     display: flex;
     flex-direction: column;
-    width: 650px;
+    max-width: 650px;
     margin-left: auto;
     margin-right: auto;
     gap: 5px;

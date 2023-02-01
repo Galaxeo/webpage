@@ -178,7 +178,6 @@ general width is 650px;
     gap: 5px;
 }
 
-
 /* Works page */
 .worksFirst{
     display: flex;
@@ -234,7 +233,7 @@ general width is 650px;
 .keybFeat:hover .keybDesc {
     transform: translateY(0);
 }
-<<<<<<< HEAD
+
 /*Resume page*/
 .resumeFirst {
     display: flex;
@@ -249,8 +248,8 @@ general width is 650px;
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
-=======
-/* Article Pages*/
+
+/* Article pages*/
 .articleFirst {
     display: flex;
     flex-direction: column;
@@ -279,5 +278,4 @@ general width is 650px;
 .articleContent {
     width: 650px;
     margin: 5px;
->>>>>>> bff6b8c01a8360e431957251eced584891d18d04
 }

@@ -11,6 +11,7 @@ general width is 650px;
     padding: 0;
     background-color:#202023;
     color: #e1e1e1;
+    line-height: 1.35;
 }
 .horizDivide{
     max-width: 600px;
@@ -335,14 +336,15 @@ general width is 650px;
     text-align: center;
 }
 .articleCoverImg {
-    width: 650px;
+    max-width: min(650px,95vw);
     object-fit: cover;
     margin: 15px;
+    border-radius: 7px;
 }
 .articleSecond {
     display: flex;
     flex-direction: column;
-    width: 650px;
+    max-width: min(650px,95vw);
     margin-left: auto;
     margin-right: auto;
     align-items: center;
@@ -353,6 +355,26 @@ general width is 650px;
     margin: 1px;
 }
 .articleContent {
-    width: 650px;
+    max-width: min(650px,80vw);
     margin: 5px;
+    font-size: 17px;
+}
+.articleImage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+}
+.articleSecond img, .articleImage img{
+    max-width: min(600px, 85vw);
+    border-radius: 7px;
+}
+.articleSecond img{
+    margin: 15px;
+}
+.articleImage img{
+    margin-bottom: 5px;
+}
+.articleImage figcaption {
+    font-size: 13px;
 }

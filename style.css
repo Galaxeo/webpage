@@ -14,7 +14,7 @@ general width is 650px;
     line-height: 1.35;
 }
 .horizDivide{
-    max-width: 600px;
+    max-width: min(600px, 92vw);
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
@@ -139,6 +139,10 @@ general width is 650px;
     display: flex;
     padding: 15px;
     justify-content: center;
+}
+.youtubefeat iframe {
+    width: min(640px, 80vw);
+    height: min(360px, 45vw);
 }
 .footer {
     display: flex;

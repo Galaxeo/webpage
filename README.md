@@ -1,4 +1,4 @@
-# [Webpage](https://cheok.works)
+# [cheok.works](https://cheok.works)
 
 The plan for this webpage is to act as a portfolio to feature some of my projects as well as to eventually port my old website [galaKeys](https://galakeys.com) to reduce yearly fees.
 ### Motivation

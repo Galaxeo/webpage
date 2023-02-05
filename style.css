@@ -180,8 +180,8 @@ general width is 650px;
     align-items: center;
 }
 .aboutFirst img{
-    width: min(300px, 50vw);
-    height: min(300px, 50vw);
+    width: min(200px, 50vw);
+    height: min(200px, 50vw);
     object-fit: cover;
     object-position: 45%;
     border-radius: 50%;

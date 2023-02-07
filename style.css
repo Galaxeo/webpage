@@ -387,6 +387,10 @@ general width is 650px;
 .articleSecond img{
     margin: 15px;
 }
+.articleSecond table{
+    border-collapse: collapse;
+    border: 1px solid #e1e1e1;
+}
 .articleImage img{
     margin-bottom: 5px;
 }

@@ -14,7 +14,7 @@ general width is 650px;
     line-height: 1.35;
 }
 .horizDivide{
-    max-width: min(600px, 92vw);
+    width: min(600px, 92vw);
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
@@ -23,6 +23,14 @@ general width is 650px;
 .largeText{
     font-family: 'Space Mono'; 
     font-size: 25px;
+}
+.largeLink{
+    font-family: 'Space Mono'; 
+    font-size: 25px;
+    text-decoration: none;
+}
+.largeLink:hover{
+    text-decoration:underline;
 }
 
 
@@ -338,6 +346,9 @@ general width is 650px;
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+.articleFirst h1{
+    font-size: 40px;
 }
 .articleCoverImg {
     max-width: min(650px,95vw);

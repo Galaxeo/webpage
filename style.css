@@ -387,8 +387,13 @@ general width is 650px;
 .articleSecond img{
     margin: 15px;
 }
+.articleSecond .largeText{
+    margin: 5px;
+}
 .articleSecond table{
     border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
     border: 1px solid #e1e1e1;
 }
 .articleImage img{
@@ -396,4 +401,14 @@ general width is 650px;
 }
 .articleImage figcaption {
     font-size: 13px;
+    text-align: center;
+}
+.articleGallery{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: min(650px, 80vw);
+    justify-content: center;
+}
+.articleGallery img{
+    width:min(500px, 80vw);
 }

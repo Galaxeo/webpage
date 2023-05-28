@@ -6,7 +6,7 @@ general width is 650px;
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 * {
-    font-family: 'Roboto', monospace;
+    font-family: 'Roboto', system-ui, monospace;
     margin: 0;
     padding: 0;
     background-color:#202023;

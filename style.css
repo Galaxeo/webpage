@@ -37,9 +37,13 @@ general width is 650px;
 /*Landing page*/
 .header {
     display: flex;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    z-index: 3;
     height: 15px;
     padding: 15px;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #202023;
     align-items: center;
 }
@@ -83,6 +87,7 @@ general width is 650px;
     top: 0;
     left: 0;
     margin: 50px;
+    margin-top: 15px;
 }
 .image1 {
     position: relative;

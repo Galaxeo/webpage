@@ -13,17 +13,17 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +83 ~/code/webpage/keyboards.html
+badd +106 ~/code/webpage/resume.html
 argglobal
 %argdel
-edit ~/code/webpage/keyboards.html
+edit ~/code/webpage/resume.html
 argglobal
-let s:l = 83 - ((34 * winheight(0) + 21) / 42)
+let s:l = 106 - ((23 * winheight(0) + 21) / 42)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 83
-normal! 056|
+keepjumps 106
+normal! 085|
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf
@@ -37,7 +37,6 @@ if filereadable(s:sx)
 endif
 let &g:so = s:so_save | let &g:siso = s:siso_save
 set hlsearch
-nohlsearch
 doautoall SessionLoadPost
 unlet SessionLoad
 " vim: set ft=vim :
